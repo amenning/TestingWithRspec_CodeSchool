@@ -25,4 +25,12 @@ describe Zombie do
     #OR zombie.hungry?.should == true
     #OR zombie.hungry?.should be_true
   end
+  
+  #The following are all methods to mark pending tests
+  it 'is pending test'
+  xit 'is a pending test'
+  it 'is a pending test' do
+    pending
+    #...
+  end
 end
